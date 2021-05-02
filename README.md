@@ -24,11 +24,13 @@ public class Customer {
 ## Object
 
 Instance of `class`.
+
 </br>
 
 ## Encapsulation
 
 Creating group of related methods, properties and other members as a single object.
+
 </br>
 
 ## Inheritance
@@ -100,9 +102,9 @@ Declaring same methods but different forms.
 
 Polymorphism can be achived by many techniques:
 
-- **Method overloading** (Run time polymorphism)  
+- **Method overloading** (Compile time polymorphism)  
   Method overloading means declaring methods with same name but different types of argument and numbers of arguments.  
-  Here which method will run, will be decided on run time, based on parameter values.
+  Whenever an object is bound with their functionality at the compile-time, this is known as the compile-time polymorphism.
 
 ```csharp
 public class A {
@@ -116,9 +118,9 @@ public class A {
 }
 ```
 
-- **Method overriding** (Compile time polymorphism)  
+- **Method overriding** (Run time polymorphism)(Late binding)  
   Method overriding means override base class method in child class using `override` keyword.  
-  Here which method will run, will be decided on complile time.
+  Whenever an object is bound with the functionality at run time, this is known as runtime polymorphism.
 
 ```csharp
 public class A {
