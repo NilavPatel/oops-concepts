@@ -2,7 +2,8 @@
 
 OOPS stands for Object Oriented Programing Structure
 
-## Class
+<details>
+<summary>Class</summary>
 
 Class is a blueprint.  
 Which has `Fields`, `Properties`, `Methods`.
@@ -19,21 +20,25 @@ public class Customer {
 }
 ```
 
-</br>
+</details>
 
-## Object
+<details>
+
+<summary>Object</summary>
 
 Instance of `class`.
 
-</br>
+</details>
 
-## Encapsulation
+<details>
+
+<summary>Encapsulation</summary>
 
 Creating group of related methods, properties and other members as a single object.
 
 </br>
 
-## Inheritance
+<summary>Inheritance</summary>
 
 Ability to derive methods and properties from another class
 
@@ -94,9 +99,11 @@ public class C : A {
 }
 ```
 
-</br>
+</details>
 
-## Polymorphism
+<details>
+
+<summary>Polymorphism</summary>
 
 Declaring same methods but different forms.
 
@@ -137,9 +144,13 @@ public class B : A {
 
 ```
 
-  </br>
+</details>
 
-## Abstraction
+<details>
 
-Hide everything other than relevant data.
+<summary>Abstraction</summary>
+
+Hide everything other than relevant data.  
 Use access modifiers like `private`, `public`, `protected` for abstraction.
+
+</details>
