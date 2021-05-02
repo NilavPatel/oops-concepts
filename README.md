@@ -36,7 +36,9 @@ Instance of `class`.
 
 Creating group of related methods, properties and other members as a single object.
 
-</br>
+</details>
+
+<details>
 
 <summary>Inheritance</summary>
 
